@@ -45,9 +45,6 @@ android.iml
 # Cocoapods
 #
 example/ios/Pods
-example/ios/VisionCameraExample.xcodeproj
-example/ios/VisionCameraExample.xcodeproj/project.pbxproj
-example/ios/VisionCameraExample
 
 # Ruby
 example/vendor/
