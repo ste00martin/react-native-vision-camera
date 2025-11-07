@@ -75,3 +75,6 @@ lib/
 
 # TypeScript
 tsconfig.tsbuildinfo
+
+example/ios/VisionCameraExample.xcodeproj/project.pbxproj
+example/ios/VisionCameraExample/Info.plist
