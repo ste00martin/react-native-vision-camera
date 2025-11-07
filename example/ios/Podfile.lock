@@ -1923,7 +1923,7 @@ PODS:
     - ReactCommon/turbomodule/core
     - SocketRocket
     - Yoga
-  - react-native-skia (2.2.12):
+  - react-native-skia (1.12.4):
     - boost
     - DoubleConversion
     - fast_float
@@ -2572,7 +2572,7 @@ PODS:
     - React-perflogger (= 0.81.5)
     - React-utils (= 0.81.5)
     - SocketRocket
-  - RNGestureHandler (2.29.1):
+  - RNGestureHandler (2.28.0):
     - boost
     - DoubleConversion
     - fast_float
@@ -2692,7 +2692,7 @@ PODS:
     - RNWorklets
     - SocketRocket
     - Yoga
-  - RNScreens (3.37.0):
+  - RNScreens (4.16.0):
     - boost
     - DoubleConversion
     - fast_float
@@ -2719,10 +2719,10 @@ PODS:
     - ReactCodegen
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
-    - RNScreens/common (= 3.37.0)
+    - RNScreens/common (= 4.16.0)
     - SocketRocket
     - Yoga
-  - RNScreens/common (3.37.0):
+  - RNScreens/common (4.16.0):
     - boost
     - DoubleConversion
     - fast_float
@@ -2781,7 +2781,7 @@ PODS:
     - ReactCommon/turbomodule/core
     - SocketRocket
     - Yoga
-  - RNWorklets (0.6.1):
+  - RNWorklets (0.5.1):
     - boost
     - DoubleConversion
     - fast_float
@@ -2808,10 +2808,10 @@ PODS:
     - ReactCodegen
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
-    - RNWorklets/worklets (= 0.6.1)
+    - RNWorklets/worklets (= 0.5.1)
     - SocketRocket
     - Yoga
-  - RNWorklets/worklets (0.6.1):
+  - RNWorklets/worklets (0.5.1):
     - boost
     - DoubleConversion
     - fast_float
@@ -2838,10 +2838,10 @@ PODS:
     - ReactCodegen
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
-    - RNWorklets/worklets/apple (= 0.6.1)
+    - RNWorklets/worklets/apple (= 0.5.1)
     - SocketRocket
     - Yoga
-  - RNWorklets/worklets/apple (0.6.1):
+  - RNWorklets/worklets/apple (0.5.1):
     - boost
     - DoubleConversion
     - fast_float
@@ -2931,7 +2931,7 @@ DEPENDENCIES:
   - "react-native-cameraroll (from `../../node_modules/@react-native-camera-roll/camera-roll`)"
   - react-native-mmkv (from `../../node_modules/react-native-mmkv`)
   - react-native-safe-area-context (from `../../node_modules/react-native-safe-area-context`)
-  - "react-native-skia (from `../node_modules/@shopify/react-native-skia`)"
+  - "react-native-skia (from `../../node_modules/@shopify/react-native-skia`)"
   - react-native-video (from `../../node_modules/react-native-video`)
   - react-native-worklets-core (from `../../node_modules/react-native-worklets-core`)
   - React-NativeModulesApple (from `../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios`)
@@ -2964,12 +2964,12 @@ DEPENDENCIES:
   - ReactAppDependencyProvider (from `build/generated/ios`)
   - ReactCodegen (from `build/generated/ios`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
-  - RNGestureHandler (from `../../node_modules/react-native-gesture-handler`)
+  - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNReanimated (from `../node_modules/react-native-reanimated`)
-  - RNScreens (from `../node_modules/react-native-screens`)
+  - RNScreens (from `../../node_modules/react-native-screens`)
   - RNStaticSafeAreaInsets (from `../../node_modules/react-native-static-safe-area-insets`)
   - RNVectorIcons (from `../../node_modules/react-native-vector-icons`)
-  - RNWorklets (from `../../node_modules/react-native-worklets`)
+  - RNWorklets (from `../node_modules/react-native-worklets`)
   - SocketRocket (~> 0.7.1)
   - VisionCamera (from `../../node_modules/react-native-vision-camera`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
@@ -3071,7 +3071,7 @@ EXTERNAL SOURCES:
   react-native-safe-area-context:
     :path: "../../node_modules/react-native-safe-area-context"
   react-native-skia:
-    :path: "../node_modules/@shopify/react-native-skia"
+    :path: "../../node_modules/@shopify/react-native-skia"
   react-native-video:
     :path: "../../node_modules/react-native-video"
   react-native-worklets-core:
@@ -3137,17 +3137,17 @@ EXTERNAL SOURCES:
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
   RNGestureHandler:
-    :path: "../../node_modules/react-native-gesture-handler"
+    :path: "../node_modules/react-native-gesture-handler"
   RNReanimated:
     :path: "../node_modules/react-native-reanimated"
   RNScreens:
-    :path: "../node_modules/react-native-screens"
+    :path: "../../node_modules/react-native-screens"
   RNStaticSafeAreaInsets:
     :path: "../../node_modules/react-native-static-safe-area-insets"
   RNVectorIcons:
     :path: "../../node_modules/react-native-vector-icons"
   RNWorklets:
-    :path: "../../node_modules/react-native-worklets"
+    :path: "../node_modules/react-native-worklets"
   VisionCamera:
     :path: "../../node_modules/react-native-vision-camera"
   Yoga:
@@ -3200,7 +3200,7 @@ SPEC CHECKSUMS:
   react-native-cameraroll: bb98380ee21115d5fe1ae0f8b80c86e044613746
   react-native-mmkv: b128128938c42ef6d3de47b05236315ea0c1f863
   react-native-safe-area-context: c00143b4823773bba23f2f19f85663ae89ceb460
-  react-native-skia: 665cd52db7ad3d41e2a59c84e9c097343745c088
+  react-native-skia: 9ed636f6b64d79a270d0c0bf6abdcade0d6b203c
   react-native-video: dc7e341a8dc21d183f7e6a17a646b98ba2cf9448
   react-native-worklets-core: 28a6e2121dcf62543b703e81bc4860e9a0150cee
   React-NativeModulesApple: ebf2ce72b35870036900d6498b33724386540a71
@@ -3233,12 +3233,12 @@ SPEC CHECKSUMS:
   ReactAppDependencyProvider: 1bcd3527ac0390a1c898c114f81ff954be35ed79
   ReactCodegen: 6c26f8c25d0b5ae66f86a1cce1777076ac8bcbd8
   ReactCommon: 5f0e5c09a64a2717215dd84380e1a747810406f2
-  RNGestureHandler: 29bbca60c881e5243e219e3fe0016060002ed389
-  RNReanimated: 2193f9e42492d29346dba950e1565ee3e3ce3908
-  RNScreens: 6b210a35db9d7f61b2004b6bf3a639fba95c154c
+  RNGestureHandler: 3a73f098d74712952870e948b3d9cf7b6cae9961
+  RNReanimated: f39d5f29612cb37617241ea2e91bfecaabe0d1c4
+  RNScreens: 0bbf16c074ae6bb1058a7bf2d1ae017f4306797c
   RNStaticSafeAreaInsets: 4696b82d3a11ba6f3a790159ddb7290f04abd275
   RNVectorIcons: 791f13226ec4a3fd13062eda9e892159f0981fae
-  RNWorklets: 2630ca0ea4f8b52ca2b978f16a070017ae8a83f3
+  RNWorklets: ad0606bee2a8103c14adb412149789c60b72bfb2
   SocketRocket: d4aabe649be1e368d1318fdf28a022d714d65748
   VisionCamera: 4146fa2612c154f893a42a9b1feedf868faa6b23
   Yoga: 728df40394d49f3f471688747cf558158b3a3bd1

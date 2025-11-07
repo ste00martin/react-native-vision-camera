@@ -1,5 +1,5 @@
 {
-  "extends": "../package/tsconfig",
+  "extends": "../package/tsconfig.json",
   "compilerOptions": {
     "paths": {
       "react-native-vision-camera": ["../package/src/index"]
